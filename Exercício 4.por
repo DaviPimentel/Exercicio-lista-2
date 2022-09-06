@@ -4,33 +4,35 @@ programa
 	
 	funcao inicio()
 	{
-		real a,b,c,r,s,d
+		inteiro N
 
-		escreva("Digite A: ")
-		leia(a)
-		escreva("Digite B: ")
-		leia(b)
-		escreva("Digite C: ")
-		leia(c)
+		escreva("Digite um número: ")
+		leia(N)
 
-		r = mat.potencia((a+b),2.0)
-		escreva("\n R :",r)
-		
-		s = mat.potencia((b+c),2.0)
-		escreva("\n S: ",s)
+		se (N % 2 == 0) {
 
-		d = (r+s) / 2
+			escreva("O número é par")
+		}
+		senao {
 
-		escreva("\n Resultado: ",d)
+		escreva("\nO número é impar")
+		}
 
-		
-		
-		
-		
-		
-	
+		se (N<0) {
+
+			escreva("\nO número é Negativo")
+		}
+
+		senao {
+
+			escreva("\nO número é Positivo")
+		}
 
 		
+		
+
+
+
 
 
 
@@ -44,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 354; 
+ * @POSICAO-CURSOR = 230; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

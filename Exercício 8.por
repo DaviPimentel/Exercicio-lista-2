@@ -3,27 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		real A,B,C,D,E,F,X,Y
+		real N
 
-		escreva("digite A")
-		leia(A)
-		escreva("digite B")
-		leia(A)
-		escreva("digite C")
-		leia(A)
-		escreva("digite D")
-		leia(A)
-		escreva("digite E")
-		leia(A)
-		escreva("digite F")
-		leia(A)
-		escreva("digite X")
-		leia(A)
-		escreva("digite Y")
-		leia(A)
+		escreva("\nDigite um Número: ")
+		leia(N)
 
-		x = 
+		se (N >100) {
 
+			escreva(N)
+		}
+
+		senao se (N<=100) {
+
+			N = 0.0
+
+			escreva(N)
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 325; 
+ * @POSICAO-CURSOR = 79; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,26 +1,26 @@
 programa
-{	
+{
+	
 	funcao inicio()
 	{
-		inteiro total_segundos,horas,minutos,segundos
+		real base,altura,R
 
-		escreva("Digite os segundos: ")
-		leia(total_segundos)
-		
-		horas = total_segundos / 3600
+		escreva("\nBase de um Triângulo: ")
+		leia(base)
+		escreva("\nAltura de um Triângulo: ")
+		leia (altura)
 
-		minutos = (total_segundos % 3600) / 60
-		
-		segundos = (total_segundos % 3600) % 60
+		se (base>=0 e altura>=0){
 
-		
+			R = base * altura / 2
 
-		escreva("\nHoras: ",horas)
-		escreva("\nMinutos: ",minutos)
-		escreva("\nSegundos: ",segundos)
-		
-		
+			escreva("Resultado: ",R)
+		}
 
+		senao {
+
+			escreva("\nInválido")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 217; 
+ * @POSICAO-CURSOR = 264; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

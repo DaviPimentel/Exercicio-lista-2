@@ -3,27 +3,30 @@ programa
 	
 	funcao inicio()
 	{
-		real A,B,C,D,E,F,X,Y
+		real N,E,Extra=20.0,S=10.0
 
-		escreva("digite A")
-		leia(A)
-		escreva("digite B")
-		leia(A)
-		escreva("digite C")
-		leia(A)
-		escreva("digite D")
-		leia(A)
-		escreva("digite E")
-		leia(A)
-		escreva("digite F")
-		leia(A)
-		escreva("digite X")
-		leia(A)
-		escreva("digite Y")
-		leia(A)
+		escreva("\nHoras Trabalhadas: ")
+		leia(N)
 
-		x = 
+		S = N * 10
+		
+		se  (N>50)     {
 
+			E = N - 50
+			}
+
+		senao {
+
+			E = 0.0
+			
+			}
+
+           Extra = E * 20
+		escreva("\nSalário: ",S)
+		escreva("\nSalário Excedente: ",Extra)
+
+
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 325; 
+ * @POSICAO-CURSOR = 294; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
